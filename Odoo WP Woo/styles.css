@@ -1,0 +1,15 @@
+.odoo_product_options_tab a::before {
+    content: "\f159" !important;
+}
+
+#odoo_product_options .odoo_product_options_content > * {
+    margin: 0;
+}
+
+#odoo_product_options .odoo_product_options_content > *:nth-child(even) {
+    background-color: #fff;
+}
+
+#odoo_product_options .odoo_product_options_content > *:nth-child(odd) {
+    background-color: #eee;
+}
